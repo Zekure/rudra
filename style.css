@@ -1,0 +1,128 @@
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    background-color: #000000;
+    padding: 190px 0px 0px 0px;
+    margin: -1%;
+    width: 101.4%;
+}
+
+#bg{
+    padding: 0%;
+    top: 200px;
+    height: 1050px; 
+    width: 100%;
+    margin-top: -13%;
+}
+
+h1{
+    font-family: "Single Day", cursive;
+    font-weight: 1000;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    text-align: center;
+    margin-top: -7%;
+}
+
+.img{
+    width: 400px;
+    height: 500px;
+    position: relative;
+    left: 38%;
+    animation: profile_animate 8s ease-in-out infinite 0s;
+    
+}
+
+p{
+        font-family: "Protest Riot", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+        font-size: 30px;
+       margin: 0.7%;
+}
+/* pre{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    text-align: center;
+} */
+
+.footer{
+    background-color: #000000;
+    padding: 50px 0px 0px 0px;
+    margin: -1%;
+    width: 101.4%;
+    position: relative;
+    top: 230px;
+}
+
+h2{
+    font-family: "Single Day", cursive;
+    font-weight: 100;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    text-align: center;
+    margin-top: -1%;
+}
+
+/* @media only screen and (min-width: 844px) */
+@media only screen and (max-width: 600px) 
+{
+.header{
+    width: 100%;
+    padding: 90px 0px 0px 0px;
+}
+
+#bg{
+    margin-top: -67%;
+    width: 100%;
+}
+
+.img {
+    width: 285px;
+    height: 325px;
+    position: relative;
+    left: 12%;
+    top: 2%;
+    animation: profile_animate 8s ease-in-out infinite 0s;
+}
+
+p{
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    font-size: 25px;
+   margin: 5%;
+}
+
+@keyframes profile_animate{
+    0% {
+        border-radius: 50% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    
+    40% {
+        border-radius: 20% 60% 70% 40%/50% 60% 30%;
+    }
+    40% {
+        border-radius: 50% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    }
+}
+@keyframes profile_animate{
+    0% {
+        border-radius: 50% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    
+    50% {
+        border-radius: 20% 60% 70% 40%/50% 60% 30%;
+    }
+    100% {
+        border-radius: 50% 40% 30% 70%/60% 30% 70% 40%;
+    }
+    }
